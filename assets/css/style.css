@@ -812,7 +812,10 @@ nav ul li a:hover,
         padding: 5px !important;
     }
 
-
+    .right-banner img:nth-child(3) {
+        top: 67%;
+        left: 31%;
+    }
 
     .banner .left-banner p {
         line-height: normal;
