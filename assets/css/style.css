@@ -464,13 +464,37 @@ nav ul li a:hover,
     font-weight: 600;
 }
 
-.industry .card {
+.industry .card-over img {
     transition: .5s ease;
+}
+
+.industry .card-over {
+    transition: .5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.industry .card-over::after {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    content: "";
+    background-color: #00000060;
+    z-index: 10;
+    transition: .5s ease;
+}
+
+.industry .card:hover .card-over::after {
+    height: 100%;
+}
+
+.industry .card-over {
     overflow: hidden;
 }
 
 .industry .card:hover img {
-    transition: .5s ease;
     transform: scale(1.1);
 }
 
