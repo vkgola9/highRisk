@@ -52,6 +52,9 @@ h3 {
     margin: 22px 0 !important;
 }
 
+/* header */
+
+
 nav ul li a,
 .employment-links a {
     padding: 0 !important;
@@ -641,6 +644,31 @@ nav ul li a:hover,
     }
 }
 
+@media (min-width: 767px) {
+    header.sticky {
+        z-index: 1000;
+        position: sticky;
+        top: 0;
+        background-color: #f8f8f8;
+        animation: moon .5s linear;
+        box-shadow: #00000040 0 0px 39px 0px;
+    }
+
+    .navbar-brand img.sticky-img {
+        width: 65%;
+    }
+
+    @keyframes moon {
+        0% {
+            transform: translateY(-200px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+}
+
 @media (max-width: 767px) {
 
 
@@ -875,7 +903,7 @@ nav ul li a:hover,
 
     .services-one {
         padding: 0;
-        height: 105px;
+        height: 95px;
     }
 
     .services-one p {
@@ -923,7 +951,7 @@ nav ul li a:hover,
     }
 
     .footer-logo .svg-1 {
-        width: 35% !important;
+        width: 38% !important;
     }
 
     .footer-logo .svg-2 {
