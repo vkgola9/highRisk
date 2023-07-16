@@ -664,7 +664,7 @@ nav ul li a:hover,
     .about img,
     .dropdown img,
     .employment img {
-        width: 70%;
+        width: 80%;
     }
 
     .banner .right-banner {
@@ -688,12 +688,12 @@ nav ul li a:hover,
 
     .right-banner img:nth-child(2) {
         top: 3%;
-        right: 29.5%;
+        right: 28.5%;
     }
 
     .right-banner img:nth-child(3) {
-        top: 72%;
-        left: 31%;
+        top: 73%;
+        left: 28%;
     }
 
     .right-banner:hover img:nth-child(2) {
@@ -770,6 +770,7 @@ nav ul li a:hover,
 
     .deopdown-img-two {
         width: 38.5% !important;
+        top: 56.5%;
     }
 
     .industry .row.justify-content-between.p-0 {
@@ -813,8 +814,8 @@ nav ul li a:hover,
     }
 
     .right-banner img:nth-child(3) {
-        top: 67%;
-        left: 31%;
+        top: 70%;
+        left: 30%;
     }
 
     .banner .left-banner p {
@@ -824,6 +825,10 @@ nav ul li a:hover,
     .banner .container,
     .container {
         padding: 0 17px !important;
+    }
+
+    .banner .container .row .left-banner {
+        padding: 45px 0 !important;
     }
 
     .square-2,
@@ -851,13 +856,21 @@ nav ul li a:hover,
     }
 
     .services h3 {
-        font-size: 17px !important;
+        font-size: 15px !important;
         line-height: normal;
         margin: 10px 0 5px 0 !important;
     }
 
     .services div .row:nth-child(3) {
         padding: 0 0 45px 0;
+    }
+
+    .industry .card h3 {
+        margin: 0 0 10px !important;
+    }
+
+    .industry .card p {
+        margin: 5px 0 0 0 !important;
     }
 
     .services-one {
@@ -867,11 +880,16 @@ nav ul li a:hover,
 
     .services-one p {
         line-height: 14px;
+        font-size: 10px !important;
     }
 
     .svg-border {
         width: 46px;
         height: 46px;
+    }
+
+    .ach-border {
+        padding: 25px 4px 0px;
     }
 
     .ach div h3:nth-child(2) {
@@ -885,11 +903,15 @@ nav ul li a:hover,
     }
 
     .footer-logo svg {
-        font-size: 19px;
+        font-size: 25px;
     }
 
     .footer-logo p {
         font-size: 8px !important;
+    }
+
+    .footer h3 {
+        margin: 0 0 10px !important;
     }
 
     .footer-logo a {
@@ -901,15 +923,15 @@ nav ul li a:hover,
     }
 
     .footer-logo .svg-1 {
-        width: 38% !important;
+        width: 35% !important;
     }
 
     .footer-logo .svg-2 {
-        width: 41% !important;
+        width: 45% !important;
     }
 
     .bottom-bar p {
-        font-size: 7px !important;
+        font-size: 8.5px !important;
         margin: 0;
     }
 
