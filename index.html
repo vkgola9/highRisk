@@ -400,7 +400,7 @@
                     <p>Please email resume to High Risk Credit Card Processor at</p>
                     <div class="employment-links">
                         <i class="fa-solid fa-phone-volume"></i> <a href="tel:+917532046645">753-204-6645</a> <span> or</span>
-                        <i class="fa-solid fa-envelope"></i> <a href="mailto:amslv@cox.net ">amslv@cox.net</a>
+                        <i class="fa-solid fa-envelope"></i> <a href="mailto:vkgola9@gmail.com ">vkgola9@gmail.com</a>
                     </div>
                     <div class="pt-0 pt-md-3 pt-lg-5 mt-4">
                         <a href="#" class="custom-btn">Get A Quote</a>
@@ -524,6 +524,12 @@
             </div>
         </section>
     </footer>
+    <div class="top">
+        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="whatsapp">
+        <a href="https://wa.me/7532046645?text=%0A%0Awelcome%20to%20highRisk%20Credit%20Card%20Processors%20We'll%20connect%20with%20you%20shortly%20thanks%20vinay%20from%20tech%20team" target="_blank"><img src="https://vkgola9.github.io/drivo-bootstrap/assets/images/whatsapp.png" alt="whatsapp-img"></a>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
 
     <script src="assets/jQuery/jquery-3.7.0.min.js"></script>
@@ -611,6 +617,12 @@
             $(".footer-logo .svg-2 a").mouseenter(function () {
                 $(".footer-logo .svg-2 svg").addClass("footer-logo-svg");
             })
+            $(".whatsapp a img").mouseenter(function () {
+                $(".whatsapp a img").addClass("footer-logo-svg");
+            })
+            $(".whatsapp a img").mouseleave(function () {
+                $(".whatsapp a img").removeClass("footer-logo-svg");
+            })
             $(".footer-logo a").mouseleave(function () {
                 $(".footer-logo .svg-2 svg").removeClass("footer-logo-svg");
             })
@@ -618,14 +630,15 @@
             $(window).scroll(function () {
                 if (window.pageYOffset >= 500) {
                     $("header").addClass('sticky');
+                    $(".top svg").addClass('sticky-to');
                     $(".navbar-brand img").addClass('sticky-img');
                 }
                 else if (window.pageYOffset <= 450) {
+                    $(".top svg").removeClass('sticky-to');
                     $("header").removeClass('sticky');
                     $(".navbar-brand img").removeClass('sticky-img');
                 }
             });
-
         })
     </script>
 </body>
