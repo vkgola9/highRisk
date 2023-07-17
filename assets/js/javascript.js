@@ -89,12 +89,12 @@
             })
 
             $(window).scroll(function () {
-                if (window.pageYOffset >= 500) {
+                if (window.scrollY >= 500) {
                     $("header").addClass('sticky');
                     $(".top svg").addClass('sticky-to');
                     $(".navbar-brand img").addClass('sticky-img');
                 }
-                else if (window.pageYOffset <= 450) {
+                else if (window.scrollY <= 450) {
                     $(".top svg").removeClass('sticky-to');
                     $("header").removeClass('sticky');
                     $(".navbar-brand img").removeClass('sticky-img');
