@@ -160,7 +160,12 @@ nav ul li a:hover,
 
 .right-banner:hover img:nth-child(1) {
     transform: scale(1.05);
-    z-index: 100;
+}
+
+.right-banner:hover::after,
+.right-banner:hover::before {
+    filter: opacity(0);
+    transform: scale(2);
 }
 
 .square-1 {
@@ -207,6 +212,7 @@ nav ul li a:hover,
     top: 57%;
     right: 78%;
     z-index: 10;
+    transition: .8s ease;
 }
 
 .right-banner::before {
@@ -219,6 +225,7 @@ nav ul li a:hover,
     top: 27%;
     left: 82%;
     z-index: 10;
+    transition: .8s ease;
 }
 
 /* about */
