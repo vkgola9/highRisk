@@ -97,6 +97,35 @@ nav ul li a:hover,
 }
 
 /* banner  */
+.carousel-indicators [data-bs-target] {
+    height: 1rem !important;
+    width: 1rem !important;
+    border-radius: 50%;
+    background-color: var(--dark-blue);
+    transition: .5s;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    transform: scale(1.5);
+}
+
+.carousel-indicators {
+    bottom: 24%;
+    left: 80%;
+    flex-direction: column;
+}
+
+.carousel-line {
+    height: 5rem;
+    width: .25rem;
+    margin: 0px 0px 0px .65rem;
+    background-color: var(--dark-blue);
+}
+
+.carousel-indicators .active {
+    transform: scale(1.5);
+}
+
 .banner {
     background-color: var(--light-blue) !important;
 }
@@ -734,6 +763,30 @@ nav ul li a:hover,
 
 /* responsive-style-sheet */
 
+@media (min-width: 1400px) {
+    .about-us .about-us-images img:nth-child(1) {
+        position: absolute;
+        top: 30%;
+        right: 44%;
+        border-radius: 15px;
+        width: 43%;
+    }
+
+    .about-us .about-us-images img:nth-child(2) {
+        left: 30%;
+        z-index: -1;
+        width: 63%;
+        position: relative;
+        bottom: -32px;
+    }
+}
+
+@media (min-width: 991px) {
+    section.industry.pt-5.pb-4.pb-lg-5 {
+        padding-bottom: 6rem !important;
+    }
+}
+
 @media (max-width: 991px) {
 
     .nav-link {
@@ -760,6 +813,11 @@ nav ul li a:hover,
 
     .navbar-brand {
         margin: 0;
+    }
+
+    .carousel-indicators {
+        bottom: 12%;
+        left: 77%;
     }
 
     .banner .container .row .left-banner {
@@ -1075,6 +1133,15 @@ nav ul li a:hover,
     .right-banner img:nth-child(3) {
         top: 70%;
         left: 30%;
+    }
+
+    .carousel-indicators {
+        bottom: 39%;
+    }
+
+    .carousel-line {
+        height: 2rem;
+        width: 0.1rem;
     }
 
     .banner .left-banner p {

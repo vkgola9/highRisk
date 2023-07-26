@@ -100,4 +100,15 @@ $(document).ready(function () {
             $(".navbar-brand img").removeClass('sticky-img');
         }
     });
+
+    $('.owl-one').owlCarousel({
+        loop: true,
+        nav: true,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        animateOut: `fadeOut`,
+        animateIn: `fadeIn`,
+
+    });
 })
