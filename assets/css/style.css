@@ -209,7 +209,7 @@ nav ul li a:hover,
 .right-banner:hover::before {
     filter: opacity(0);
     transform: scale(2);
-    visibility: hidden;
+        z-index: -1;
 }
 
 .square-1 {
