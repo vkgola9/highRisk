@@ -19,7 +19,7 @@ $(document).ready(function () {
     $("#time").html(date);
 
     var b = date.replace("/", " ");
-    var c = b.replace("/", ",");
+    var c = b.replace("/", ", ");
     var d = c.slice(1)
     let month;
     switch (new Date().getMonth()) {
