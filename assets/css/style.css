@@ -124,7 +124,7 @@ nav ul li a:hover,
 }
 
 .carousel-indicators {
-    z-index: 2000 !important;
+    z-index: 500 !important;
     bottom: 34%;
     left: 82%;
     flex-direction: column;
