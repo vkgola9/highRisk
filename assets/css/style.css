@@ -105,6 +105,7 @@ nav ul li a:hover,
     background-color: var(--dark-blue);
     transition: .5s;
     position: relative;
+    z-index: 2000;
 }
 
 .carousel-indicators [data-bs-target]:hover {
@@ -209,7 +210,7 @@ nav ul li a:hover,
 .right-banner:hover::before {
     filter: opacity(0);
     transform: scale(2);
-        z-index: -1;
+    z-index: -1;
 }
 
 .square-1 {
@@ -485,6 +486,8 @@ nav ul li a:hover,
 
 .accordion-button.collapsed.accordion-button::after {
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' id='plus'%3e%3cpath fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 1v14M1 8h14'%3e%3c/path%3e%3c/svg%3e") !important;
+    background-size: 13px;
+    background-position: center;
 }
 
 .accordion-button.accordion-button::after {
@@ -498,7 +501,6 @@ nav ul li a:hover,
 .dropdown .accordion-body,
 .accordion-button,
 .accordion-button.collapsed {
-    /* --bs-accordion-bg: var(--light-blue) !important; */
     background-color: var(--light-blue) !important;
     font-weight: 700;
 }
@@ -852,7 +854,7 @@ nav ul li a:hover,
 }
 
 @media (min-width: 991px) {
-    section.industry.pt-5.pb-4.pb-lg-5 {
+    section.industry.py-3.py-sm-5 {
         padding-bottom: 6rem !important;
     }
 }
@@ -989,6 +991,10 @@ nav ul li a:hover,
     .about-us .about-us-images img:nth-child(2) {
         left: 27%;
     }
+
+    .dropdown {
+        padding: 2rem 0 5rem;
+    }
 }
 
 @media (min-width: 767px) {
@@ -1089,6 +1095,10 @@ nav ul li a:hover,
         padding: 10px 20px !important;
     }
 
+    .about {
+        padding: 38px 0;
+    }
+
     .services img {
         width: 42%;
     }
@@ -1120,12 +1130,12 @@ nav ul li a:hover,
     }
 
     .ach div h3:nth-child(2) {
-        top: 17%;
+        top: 20%;
         right: 34%;
     }
 
     .internet-checks div h3:nth-child(2) {
-        top: 2.5% !important;
+        top: 5% !important;
     }
 
     .ach-circle-one {
@@ -1145,6 +1155,19 @@ nav ul li a:hover,
     .deopdown-img-two {
         width: 38.5% !important;
         top: 56.5%;
+    }
+
+    .employment {
+        padding: 0rem 0 2.5rem;
+    }
+
+    .employment>div>div>div {
+        text-align: center;
+        margin: 0 0 50px;
+    }
+
+    .employment h2.lh-1.mb-2.mb-md-3.p-0 {
+        text-align: center;
     }
 
     .industry .row.justify-content-between.p-0 {
@@ -1196,7 +1219,6 @@ nav ul li a:hover,
 
     .accordion-button {
         font-size: 14px !important;
-        font-weight: 500;
         padding: 5px !important;
     }
 
@@ -1267,6 +1289,10 @@ nav ul li a:hover,
         margin: 5px 0 0 0 !important;
     }
 
+    .industry .card-body {
+        padding: 1rem;
+    }
+
     .services-one {
         padding: 0;
         height: 95px;
@@ -1287,8 +1313,12 @@ nav ul li a:hover,
     }
 
     .ach div h3:nth-child(2) {
-        top: 12%;
-        right: 20%;
+        top: 17%;
+        right: 22%;
+    }
+
+    .internet-checks div h3:nth-child(2) {
+        top: 7% !important;
     }
 
     .list-unstyled.mb-1 {
@@ -1296,20 +1326,25 @@ nav ul li a:hover,
         display: flex;
     }
 
+    .footer-logo {
+        height: 62px;
+    }
+
     .footer-logo svg {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .footer-logo p {
-        font-size: 8px !important;
+        font-size: 10px !important;
+        line-height: 1px;
     }
 
     .footer h3 {
-        margin: 0 0 10px !important;
+        margin: 12px 0px !important;
     }
 
     .footer-logo a {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .footer-logo .col-5 {
@@ -1322,6 +1357,10 @@ nav ul li a:hover,
 
     .footer-logo .svg-2 {
         width: 45% !important;
+    }
+
+    .footer {
+        padding: 16% 0 1%;
     }
 
     .bottom-bar p {
