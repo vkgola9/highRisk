@@ -1049,7 +1049,7 @@ nav ul li a:hover,
     .navbar-nav,
     .navbar-nav li {
         margin-right: auto;
-        padding: 25px 0 0 5.5px;
+        padding: 17px 0 0 5.5px;
     }
 
     .offcanvas.show:not(.hiding),
