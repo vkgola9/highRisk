@@ -1260,7 +1260,7 @@ nav ul li a:hover,
     }
 
     .about svg {
-        padding: 4px;
+        padding: 1px;
     }
 
     .deopdown-img-two {
@@ -1324,6 +1324,7 @@ nav ul li a:hover,
     .list-unstyled.mb-1 {
         align-items: start !important;
         display: flex;
+        line-height: normal !important;
     }
 
     .footer-logo {
