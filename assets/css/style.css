@@ -1117,6 +1117,10 @@ nav ul li a:hover,
         padding: 38px 0;
     }
 
+    .about .col-12.col-md-4.mt-md-5.pt-1.pt-md-0 {
+        text-align: center;
+    }
+
     .services img {
         width: 42%;
     }
