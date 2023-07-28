@@ -1390,11 +1390,11 @@ nav ul li a:hover,
     }
 
     .footer {
-        padding: 3% 0 4%;
+        padding:4% 0;
     }
 
     .footer hr {
-        margin: 1.4rem 0 1rem;
+        margin: 1rem 0 1rem;
     }
 
     .bottom-bar p {
