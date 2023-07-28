@@ -1013,6 +1013,10 @@ nav ul li a:hover,
     .dropdown {
         padding: 2rem 0 5rem;
     }
+
+    .footer {
+        padding: 3% 0 2%;
+    }
 }
 
 @media (min-width: 767px) {
@@ -1212,6 +1216,10 @@ nav ul li a:hover,
         right: 40%;
         transform: scale(.75);
     }
+
+    .footer {
+        padding: 3% 0;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1382,7 +1390,7 @@ nav ul li a:hover,
     }
 
     .footer {
-        padding: 16% 0 1%;
+        padding: 2% 0 4%;
     }
 
     .bottom-bar p {
