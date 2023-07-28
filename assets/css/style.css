@@ -117,7 +117,6 @@ nav ul li a:hover,
     background-color: var(--dark-blue);
     transition: .5s;
     position: relative;
-    z-index: 2000;
 }
 
 .carousel-indicators [data-bs-target]:hover {
@@ -125,6 +124,7 @@ nav ul li a:hover,
 }
 
 .carousel-indicators {
+    z-index: 2000 !important;
     bottom: 34%;
     left: 82%;
     flex-direction: column;
@@ -904,7 +904,7 @@ nav ul li a:hover,
     }
 
     .carousel-indicators {
-        bottom: 12%;
+        bottom: 26%;
         left: 77%;
     }
 
@@ -1052,9 +1052,7 @@ nav ul li a:hover,
         padding: 17px 0 0 5.5px;
     }
 
-    .offcanvas.show:not(.hiding),
-    .offcanvas.showing {
-        transform: none;
+    .offcanvas.offcanvas-end {
         width: 60vw;
     }
 
@@ -1250,7 +1248,8 @@ nav ul li a:hover,
     }
 
     .carousel-indicators {
-        bottom: 49%;
+        bottom: 37%;
+        left: 75%;
     }
 
     .carousel-line {
