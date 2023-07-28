@@ -752,6 +752,10 @@ nav ul li a:hover,
 }
 
 /* apply-online */
+.apply-online {
+    padding: 0 0 5%;
+}
+
 .apply-online .container .row.text-center a {
     color: #000;
     font-weight: 600;
@@ -943,6 +947,8 @@ nav ul li a:hover,
     }
 
     /* apply-online */
+
+
     .apply-online label,
     .apply-online span {
         font-size: 14px;
@@ -1031,7 +1037,7 @@ nav ul li a:hover,
     .navbar-nav,
     .navbar-nav li {
         margin-right: auto;
-        padding: 10px 0 0 5.5px;
+        padding: 25px 0 0 5.5px;
     }
 
     .offcanvas.show:not(.hiding),
@@ -1183,7 +1189,7 @@ nav ul li a:hover,
     }
 
     .about-us .about-us-images img:nth-child(2) {
-        bottom: 52px;
+        bottom: 48px;
         transform: scale(.75);
     }
 
