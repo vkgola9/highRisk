@@ -731,7 +731,9 @@ nav ul li a:hover,
 .about-us>div:first-child,
 .about-us>div:first-child a,
 .apply-online>div:first-child,
-.apply-online>div:first-child a {
+.apply-online>div:first-child a,
+.for-services>div:first-child,
+.for-services>div:first-child a {
     background-color: var(--dark-blue);
     color: #fff;
     text-decoration: none;
@@ -848,6 +850,25 @@ nav ul li a:hover,
     border: 1px solid #cfcfcf;
     border-radius: 0.375rem;
 }
+
+
+/* services  */
+.for-services div .row:nth-child(3) {
+    padding: 0 !important;
+}
+
+.for-services div .row:nth-child(5) {
+    padding: 0 0 77px 0 !important;
+}
+
+.for-services>.row:nth-child(1) {
+    margin-bottom: 7%;
+}
+
+.for-services {
+    padding: 0 0 7% 0 !important;
+}
+
 
 /* responsive-style-sheet */
 
@@ -1390,7 +1411,7 @@ nav ul li a:hover,
     }
 
     .footer {
-        padding:5% 0 4%;
+        padding: 5% 0 4%;
     }
 
     .footer hr {
