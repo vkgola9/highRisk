@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    // form select validation 0 
+    $(".form-select").prop("selectedIndex", -1);
+    $(".form-check-input").prop("selectedIndex", -1);
+
     // employment-links svg class add & remove
     $(".employment-links a:nth-child(2)").mouseenter(function () {
         $(".employment-links svg:first").addClass("employment-links-svg-hover");
@@ -111,4 +115,6 @@ $(document).ready(function () {
         animateIn: `fadeIn`,
 
     });
+
+
 })
