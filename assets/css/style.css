@@ -705,6 +705,7 @@ nav ul li a:hover,
     z-index: 1000;
     animation: moonB .5s linear;
     display: inline-block;
+    border: 1px solid white;
 }
 
 .whatsapp img {
@@ -733,7 +734,13 @@ nav ul li a:hover,
 .apply-online>div:first-child,
 .apply-online>div:first-child a,
 .for-services>div:first-child,
-.for-services>div:first-child a {
+.for-services>div:first-child a,
+.for-ach>div:first-child,
+.for-ach>div:first-child a,
+.for-employment>div:first-child,
+.for-employment>div:first-child a,
+.for-faqs>div:first-child,
+.for-faqs>div:first-child a {
     background-color: var(--dark-blue);
     color: #fff;
     text-decoration: none;
@@ -869,6 +876,74 @@ nav ul li a:hover,
     padding: 0 0 7% 0 !important;
 }
 
+/* for-ach */
+.for-ach div:nth-child(2) h3:nth-child(2) {
+    margin: auto !important;
+}
+
+.for-ach div>.row:nth-child(1) h2 {
+    margin-bottom: auto;
+}
+
+.for-ach-border {
+    border: none;
+    border-radius: 30px;
+    padding: 55px 35px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.for-ach-border p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.for-ach div h3:nth-child(2) {
+    background-color: transparent !important;
+}
+
+.for-internet-checks {
+    /* margin: 2.5rem 0 5rem; */
+    padding: 0;
+    background-color: var(--light-blue);
+}
+
+/* adult-merchant */
+
+.adult-merchant h2 {
+    margin-bottom: 0 !important;
+}
+
+.adult-merchant h3 {
+    margin: 0 0 10px !important;
+}
+
+/* faqs dropdown */
+.for-faqs .dropdown {
+    padding: 7rem 0;
+}
+
+/* international-merchant-account */
+.international-merchant-account h2 {
+    line-height: normal;
+    margin-bottom: .8rem !important;
+}
+
+.international-merchant-account .row:first-child {
+    margin: 6rem 0 !important;
+}
+
+/* Industry news */
+.Industry-news {
+    height: 25rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+
 
 /* responsive-style-sheet */
 
@@ -979,6 +1054,10 @@ nav ul li a:hover,
         margin-bottom: 43px;
     }
 
+    .ach div h3:nth-child(2) {
+        right: 39%;
+    }
+
     /* apply-online */
 
 
@@ -1037,6 +1116,11 @@ nav ul li a:hover,
 
     .footer {
         padding: 4% 0 2%;
+    }
+
+    /* .international-merchant-account .row:first-child { */
+    .international-merchant-account .row:first-child {
+        margin: 5rem 0 !important;
     }
 }
 
@@ -1241,6 +1325,21 @@ nav ul li a:hover,
     .footer {
         padding: 4% 0 0;
     }
+
+    /* faqs dropdown */
+    .for-faqs .dropdown {
+        padding: 5rem 0;
+    }
+
+    /* .international-merchant-account .row:first-child { */
+    .international-merchant-account .row:first-child {
+        margin: 4rem 0 2rem !important;
+    }
+
+    /* Industry news */
+    .Industry-news {
+        height: 17rem;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1432,5 +1531,48 @@ nav ul li a:hover,
     .about-us .about-us-images img:nth-child(1) {
         right: 36%;
         width: 71%;
+    }
+
+    /* for ach */
+    .for-ach-border {
+        padding: 33px 0px 0px;
+    }
+
+    .ach-circle-one {
+        padding: 0 3px !important;
+    }
+
+    .for-ach h3 {
+        font-size: 18px !important;
+    }
+
+    .for-ach h2 {
+        font-size: 24px !important;
+        margin: 0 0 6% !important;
+    }
+
+    /* adult-merchant */
+    .adult-merchant h2 {
+        font-size: 22px !important;
+    }
+
+    .adult-merchant h3 {
+        font-size: 19px !important;
+    }
+
+    /* faqs dropdown */
+    .for-faqs .dropdown {
+        padding: 3rem 0;
+    }
+
+    /* .international-merchant-account */
+
+    .international-merchant-account .row:first-child {
+        margin: 3rem 0 1rem !important;
+    }
+
+    /* Industry news */
+    .Industry-news {
+        height: 12rem;
     }
 }
