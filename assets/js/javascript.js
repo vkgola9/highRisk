@@ -82,12 +82,12 @@ $(document).ready(function () {
     $(".footer-logo .svg-2 a").mouseenter(function () {
         $(".footer-logo .svg-2 svg").addClass("footer-logo-svg");
     })
-    $(".whatsapp a img").mouseenter(function () {
-        $(".whatsapp a img").addClass("footer-logo-svg");
-    })
-    $(".whatsapp a img").mouseleave(function () {
-        $(".whatsapp a img").removeClass("footer-logo-svg");
-    })
+    // $(".whatsapp a img").mouseenter(function () {
+    $(".whatsapp a img").addClass("footer-logo-svg");
+    // })
+    // $(".whatsapp a img").mouseleave(function () {
+    //     $(".whatsapp a img").removeClass("footer-logo-svg");
+    // })
     $(".footer-logo a").mouseleave(function () {
         $(".footer-logo .svg-2 svg").removeClass("footer-logo-svg");
     })
